@@ -109,7 +109,14 @@ General changes
   - ``unique_function`` has been renames to ``move_only_function`` and moved into 
     namespace ``hpx``. ``function`` and ``function_ref`` have been moved into namespace
     ``hpx``.
-
+- The new LCI (Lightweight Communication Interface) parcelport was added that supports
+  irregular and asynchronous applications like graph analysis, sparce linear algebra,
+  modern parallel arhcitectures etc. Major features include
+  - Support for advanced communication primitives like two sided send/recv and
+  one sided remote put.
+  - Better multi-threaded performance.
+  - Explicit user control of communication resource.
+  - Flexible signaling mechanisms (synchronizer, completion queue, active message handler). 
 
 Breaking changes
 ================
@@ -201,9 +208,11 @@ Closed issues
 Closed pull requests
 ====================
 
+* :hpx-pr:`5829` - Attempting to fix failing barrier test
 * :hpx-pr:`5827` - Add back explicit template parameter to `ignore_while_checking` to compile with nvcc
 * :hpx-pr:`5823` - Remove obsolete directories and adjust build system
 * :hpx-pr:`5821` - Enable permissive- flag on Windows GitHub actions builders
+* :hpx-pr:`5820` - Convert throwmode enum to enum class
 * :hpx-pr:`5819` - Marking customization points for intrusive_ptr as noexcept
 * :hpx-pr:`5818` - Unconditionally use C++17 attributes
 * :hpx-pr:`5817` - Modernize naming modules
@@ -282,6 +291,7 @@ Closed pull requests
 * :hpx-pr:`5718` - build: refactor sphinx config file 
 * :hpx-pr:`5717` - Creating parcelset modules
 * :hpx-pr:`5716` - Avoid duplicate definition error
+* :hpx-pr:`5715` - The new LCI parcelport for HPX
 * :hpx-pr:`5714` - Refine propagation of HPX_WITH_... options
 * :hpx-pr:`5713` - Significantly reduce CI jobs run on Piz Daint
 * :hpx-pr:`5712` - Updating jenkins configuration for Rostam2.2
