@@ -206,6 +206,7 @@ set(algorithms_headers
     hpx/parallel/util/transfer.hpp
     hpx/parallel/util/transform_loop.hpp
     hpx/parallel/util/zip_iterator.hpp
+    hpx/parallel/unseq/fill.hpp
 )
 
 # cmake-format: off
