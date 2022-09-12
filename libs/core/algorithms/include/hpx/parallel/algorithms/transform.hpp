@@ -194,6 +194,7 @@ namespace hpx {
 #include <hpx/parallel/util/projection_identity.hpp>
 #include <hpx/parallel/util/transform_loop.hpp>
 #include <hpx/parallel/util/zip_iterator.hpp>
+#include <hpx/parallel/unseq/transform_loop.hpp>
 
 #include <algorithm>
 #include <cstddef>

@@ -11,6 +11,7 @@ set(config_headers
     hpx/config.hpp
     hpx/config/asio.hpp
     hpx/config/attributes.hpp
+    hpx/config/auto_vectorization.hpp
     hpx/config/autolink.hpp
     hpx/config/branch_hints.hpp
     hpx/config/compiler_fence.hpp

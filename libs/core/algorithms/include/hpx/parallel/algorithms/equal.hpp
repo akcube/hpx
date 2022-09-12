@@ -188,6 +188,7 @@ namespace hpx {
 #include <hpx/parallel/util/partitioner.hpp>
 #include <hpx/parallel/util/projection_identity.hpp>
 #include <hpx/parallel/util/zip_iterator.hpp>
+#include <hpx/parallel/unseq/equal.hpp>
 #include <hpx/type_support/unused.hpp>
 
 #include <algorithm>

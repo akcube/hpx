@@ -1,0 +1,6 @@
+[submodule "unseq-execution_policy-benchmark"]
+	path = unseq-execution_policy-benchmark
+	url = git@github.com:akcube/unseq-execution_policy-benchmark.git
+[submodule "bunseq-execution_policy-benchmark"]
+	path = bunseq-execution_policy-benchmark
+	url = https://github.com/akcube/unseq-execution_policy-benchmark

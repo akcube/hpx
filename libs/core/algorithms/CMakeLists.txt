@@ -175,6 +175,13 @@ set(algorithms_headers
     hpx/parallel/spmd_block.hpp
     hpx/parallel/task_block.hpp
     hpx/parallel/task_group.hpp
+    hpx/parallel/unseq.hpp
+    hpx/parallel/unseq/equal.hpp
+    hpx/parallel/unseq/fill.hpp
+    hpx/parallel/unseq/loop.hpp
+    hpx/parallel/unseq/reduce.hpp
+    hpx/parallel/unseq/reduce_helpers.hpp
+    hpx/parallel/unseq/transform_loop.hpp
     hpx/parallel/util/cancellation_token.hpp
     hpx/parallel/util/compare_projected.hpp
     hpx/parallel/util/detail/algorithm_result.hpp
@@ -206,7 +213,6 @@ set(algorithms_headers
     hpx/parallel/util/transfer.hpp
     hpx/parallel/util/transform_loop.hpp
     hpx/parallel/util/zip_iterator.hpp
-    hpx/parallel/unseq/fill.hpp
 )
 
 # cmake-format: off
