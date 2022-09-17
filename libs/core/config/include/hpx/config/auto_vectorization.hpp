@@ -56,7 +56,7 @@
     #define HPX_UNROLL HPX_PRAGMA(unroll)
     #define HPX_UNROLL_N(N) HPX_PRAGMA(unroll(N))
 #elif defined(HPX_CLANG_VERSION)
-    #define HPX_RESTRICT //__restrict
+    #define HPX_RESTRICT __restrict
     #define HPX_UNROLL HPX_PRAGMA(clang loop unroll(enable))
     #define HPX_UNROLL_N(N) HPX_PRAGMA(clang loop unroll_count(N))
 #elif defined(HPX_GCC_VERSION)
